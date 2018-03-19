@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".btn-hidden").hide(),$(".quad").hide();$(".btn-large").on("click",function(){$(".rotate-at-click").toggleClass("rotated"),$(".btn-hidden").slideToggle("slow","swing",function(){})})});
